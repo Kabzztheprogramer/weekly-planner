@@ -1,0 +1,298 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #DDC2AE;
+    user-select: none;
+}
+
+.Maincontainer{
+  
+    background-color: #EBECEC ;
+    border-radius: 50pt ;
+    width: 320pt ;
+    margin: 30px auto;
+    margin-bottom: 0pt;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+    height: 610pt;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+
+}
+#Mainlogo{
+    color: #d08e63;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif ;
+    word-wrap: break-word;
+    align-self: center ;
+}
+.bottombuttons{
+    width: 335pt;
+    height: 50pt;
+    border-radius: 10pt;
+    background-color: white;
+    margin: 30pt auto;
+    margin-top: -10pt;
+    position: relative;
+    z-index: 1; 
+    padding-top: 8pt;
+    padding-left:8pt ;
+    display: block;
+    border-bottom-left-radius: 50pt;
+    border-bottom-right-radius: 50pt;
+    
+
+}
+
+.btnicons {
+    width: 40pt;
+  
+}
+.btnicons:hover{
+    cursor: pointer;
+}
+.bottombuttons #IChome {
+    margin-left: 60pt;
+    position: absolute;
+}
+
+.bottombuttons #addpageIC {
+    position: absolute;
+    margin-left: 135pt;
+    margin-top: -32pt;
+    width: 55pt;
+    
+}
+
+.bottombuttons #ICcalendar{
+margin-left: 220pt;
+}
+
+#dpmainpicture{
+    width: 120pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    align-self: center;
+    background-color: white;
+    border-radius: 15pt;
+
+}
+
+#lblheading{
+    align-self: center;
+    margin: 15px;
+}
+.lblheadings{
+    color: #010A30 ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+
+
+#lbldate{
+    align-self: center;
+}
+.pagelabels{
+    font-size: 14pt;
+    color:  #817d7b ;
+    font-weight: bold;
+    margin-bottom: 10pt;
+    
+}
+#datepicker{
+    align-self: center;
+    text-align: center;
+    font-size: 15px;
+    width: 150pt;
+    padding: 10pt;
+    border: none;
+    border-radius: 10pt;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10pt;
+}
+
+#datepicker:hover {
+    cursor: pointer;
+    color: #EBECEC;
+}
+.timepickerspot{
+    background-color: white;
+    padding: 10pt;
+    border-radius: 10pt;
+    width: 125pt;
+    align-items: center;
+    margin-left: 15pt;
+}
+
+.timepicker:hover{
+    cursor: pointer;
+    
+}
+#timepickerlbl{
+    margin-top: 5pt;
+    margin-left: 35pt;
+}
+
+.timepicker{
+    border: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Ineevent{
+    background-color: white;
+    padding: 10pt;
+    border-radius: 10pt;
+    width: 125pt;
+    align-items: center;
+    margin-left: 15pt;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+.inforinputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Heventlbl{
+    margin-top: 5pt;
+    margin-left: 100pt;
+
+}
+.Brownbtn{
+    background-color:#d08e63;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    border: none;
+    margin: 10pt;
+    padding: 10pt;
+    width: 100pt;
+    border-radius: 10pt;
+
+}
+.Brownbtn:hover {
+    background-color:#010A30;
+    cursor: pointer;
+}
+
+.Bluebtn{
+    background-color: #010A30;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    border: none;
+    margin: 10pt;
+    padding: 10pt;
+    width: 100pt;
+    border-radius: 10pt;
+    
+}
+.Bluebtnadded{
+    background-color: #3dfa37; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Bluebtn:hover{
+    background-color: #d08e63;
+    cursor: pointer;
+}
+    
+
+
+#btnadd{
+    
+    margin-left: 110pt;
+}
+
+.schedule{
+    margin-top: 0 ;
+    padding: 0 ;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px ;
+}
+.schedule:hover{
+    cursor: grab;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+}
+
+li{
+    background-color: white;
+    width: 370px;
+    min-width: 350px;
+    min-height: 100px;
+    padding: 20pt;
+    border-radius: 15px;
+    border-radius: 50px;
+}
+
+.labeldiv{
+    display: flex;
+    flex-direction: column;
+    padding: 10pt;
+    margin: 0;
+    border-left: solid 5pt #d08e63;
+    border-top-left-radius: 20pt;
+    border-bottom-left-radius: 20pt;
+}
+.lblmessage{
+    background: none;
+    border: #010A30 4px solid;
+    font-size: 15px;
+    color: #d08e63;
+    font-Weight :bold;
+    display : flex;
+    align-Items : center;
+    margin-Top : 5px ;
+    padding: 10px;
+
+}
+.tickcom {
+
+    background-color: none;
+    position: relative;
+    align-items: center;
+    border : none;
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #EBECEC ;
+}
+
+@keyframes growAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 80px;
+    }
+  }
+  .growing {
+    animation: growAnimation 1s ease-out;
+  }
+
+

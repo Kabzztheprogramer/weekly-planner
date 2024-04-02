@@ -1,0 +1,277 @@
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #DDC2AE;
+    user-select: none;
+}
+
+.Maincontainer{
+  
+    background-color: #EBECEC ;
+    border-radius: 50pt ;
+    width: 320pt ;
+    margin: 30px auto;
+    margin-bottom: 0pt;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+    height: 610pt;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+
+}
+.topcontainer{
+    width: 90%;
+    height: 100%;
+    max-height: 250pt;
+    max-width: 275pt;
+    background-color: #d08e63;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px;
+    align-self: center;
+}
+
+#Mainlogo{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif ;
+    word-wrap: break-word;
+    align-self: center ;
+    margin-top: 10px ;
+
+}
+
+#lblqouteoftheday{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#mainpicture{
+    align-self: center;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.currentdiv{
+    width: 90%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 15pt ;
+    align-self: center;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+#nowtimer{
+    margin-left: 20px;
+    width: 40px;
+}
+
+#currentplan{
+    color: #010A30 ;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#currentplantime{
+    color:  #AEA69F ;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#lblToday{
+    margin: 15px;
+    color: #010A30 ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.schedule {
+    height: 250pt;
+    width: 300pt;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0 ;
+    padding: 0 ;
+    align-self: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow: hidden;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.schedule :hover {
+    cursor:grab;
+}
+
+
+
+
+ul{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ flex-grow: 1;
+ width: 100%;
+ width: calc(100% + 17px);
+ -webkit-overflow-scrolling: touch;
+ align-content: center;
+ position: relative;
+}
+
+ul li{
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    gap: 40px;
+    border-bottom: solid #d08e63 4px;
+    ;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+  
+}
+
+
+li .lbltime {
+    position: absolute;}
+
+li .lblevent {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+li .myCheckbox {
+    margin-left: 300px;
+    margin-top: 35px;
+}
+
+.lbltime{
+    max-width: 40px;
+    white-space: pre-line; 
+    line-height: 3;
+    padding: 0;
+    color:  #817d7b ;
+    font-weight: bold;   
+}
+
+.lblevent{
+    text-align: left;
+    max-width: 175px ;
+    width: 200px;
+    background-color: white;
+    border-radius: 15pt ;
+    padding: 10px;
+    text-align: center;
+    white-space: pre-line;
+    color: #010A30 ;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: solid #010A30 3px;
+}
+
+.myCheckbox{
+    width: 30px;
+    height: 30px;
+    width: 30px ;
+    background-color: #eee;
+    border: 1px solid #010A30;
+    border-radius: 5px ;
+    box-shadow: 2px 2px;
+    padding: 0px;
+    
+}
+.myCheckbox:hover{
+    cursor: pointer;
+}
+.Checked{
+        background-image: url('checkbox.png'); /* Add your tick image URL */
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.bottombuttons{
+    width: 335pt;
+    height: 50pt;
+    border-radius: 10pt;
+    background-color: white;
+    margin: 30pt auto;
+    margin-top: -10pt;
+    position: relative;
+    z-index: 1; 
+    padding-top: 8pt;
+    padding-left:8pt ;
+    display: block;
+    border-bottom-left-radius: 50pt;
+    border-bottom-right-radius: 50pt;
+
+}
+
+.btnicons {
+    width: 40pt;
+}
+
+.btnicons:hover{
+    cursor: pointer;
+}
+.bottombuttons #IChome {
+    margin-left: 60pt;
+    position: absolute;
+}
+
+.bottombuttons #addpageIC {
+    position: absolute;
+    margin-left: 135pt;
+    margin-top: -32pt;
+    width: 55pt;
+    
+}
+
+.bottombuttons #ICcalendar{
+
+margin-left: 220pt;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*button {
+    margin : 10pt ;
+    border-radius: 20px;
+    padding: 10pt ;
+
+}/*
+
+
+
+

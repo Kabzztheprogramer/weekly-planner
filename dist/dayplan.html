@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add an day plan </title>
+    <link rel="stylesheet" href="dayplan.css">
+</head>
+<body>
+    <button id="display"> display</button>
+    <div class="Maincontainer">
+        <label id="Mainlogo">Weekly Planner !</label> 
+        
+        <img src="dpmainpicture.png" id="dpmainpicture">
+        <Label id = "lblheading" class="lblheadings"> DAY PLAN </Label>
+        <label id="lbldate" for="datepicker" class="pagelabels"> Select a date </label>
+        <input type="date" id="datepicker">
+       
+       <form class="inforinputs">
+            <label for="timepickerspot" class="pagelabels" id = "timepickerlbl" >Time Duration</label>  <label for="Ineevent" class="pagelabels" Id="Heventlbl"> Event </label>
+            <div class="timepickerspot">
+                <input type="time" id = "fromt" class="timepicker"  name="stime">
+                <label for=" Tillt" label class="pagelabels"> To </label>
+                <input type="time" id = "Tillt"  class="timepicker"  name="ftime"> 
+            </div>   
+            <input type="text" class= "Ineevent" id="Ineevent" placeholder="Work Out" name ="Inpevent">
+            <button id="btnadd" class="Bluebtn"> ADD PLAN</button>
+        </form>
+        <form class="schedule" id = "schedulediv">
+            <ul id = "scheduleul">
+               
+            </ul>
+
+        </form>
+
+
+        
+        
+      
+        
+    </div>
+    <div class="bottombuttons">
+        <img src="IChome.png"  id="IChome" class="btnicons" > <img id="addpageIC" src="ICaddevent.png" class="btnicons"> <img  id="ICcalendar" src="ICcalendar.png" class="btnicons">
+        
+    </div>
+    <script src="dayplan.bundle.js"></script>
+</body>
+</html>

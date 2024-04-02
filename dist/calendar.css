@@ -1,0 +1,129 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #DDC2AE;
+    user-select: none;
+}
+#Mainlogo{
+    color: #010A30 ;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif ;
+    word-wrap: break-word;
+    align-self: center ;
+}
+.Maincontainer{
+  
+    background-color: #EBECEC ;
+    border-radius: 50pt ;
+    width: 320pt ;
+    margin: 30px auto;
+    margin-bottom: 0pt;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+    height: 610pt;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+
+}
+
+.bottombuttons{
+    width: 335pt;
+    height: 50pt;
+    border-radius: 10pt;
+    background-color: white;
+    margin: 30pt auto;
+    margin-top: -10pt;
+    position: relative;
+    z-index: 1; 
+    padding-top: 8pt;
+    padding-left:8pt ;
+    display: block;
+    border-bottom-left-radius: 50pt;
+    border-bottom-right-radius: 50pt;
+    
+
+}
+
+.btnicons {
+    width: 40pt;
+}
+.bottombuttons #IChome {
+    margin-left: 60pt;
+    position: absolute;
+}
+
+.bottombuttons #addpageIC {
+    position: absolute;
+    margin-left: 135pt;
+    margin-top: -32pt;
+    width: 55pt;
+    
+}
+
+.bottombuttons #ICcalendar{
+margin-left: 220pt;
+}
+
+.lblheadings{
+    color: #010A30 ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+
+
+
+.pagelabels{
+    font-size: 14pt;
+    color:  #817d7b ;
+    font-weight: bold;
+    margin-bottom: 10pt;
+    
+}
+
+
+.schedule{
+    margin-top: 0 ;
+    padding: 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+}
+
+li{
+    background-color: white;
+    width: 250pt;
+    padding: 20pt;
+    border-radius: 15p;
+    border-radius: 50px;
+}
+
+.schedulelbl{
+    display: flex;
+    flex-direction: column;
+    padding: 10pt;
+    margin: 0;
+    border-left: solid 5pt #d08e63;
+    border-top-left-radius: 20pt;
+    border-bottom-left-radius: 20pt;
+}
