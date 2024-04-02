@@ -55,7 +55,7 @@ datepicker.addEventListener("change",async (e)=>
     if (arrplans.length === 0){
         const itemmessage = document.createElement("li");
         itemmessage.classList.add("lblmessage");
-        itemmessage.textContent= 'NO SCHEDULE HAS BEEN ADD FOR THIS DAY ';
+        itemmessage.textContent= 'NO SCHEDULE HAS BEEN ADDED FOR THIS DAY ';
         scheduleul.textContent=''
         scheduleul.append(itemmessage)
         
